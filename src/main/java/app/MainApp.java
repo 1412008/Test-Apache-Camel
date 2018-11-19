@@ -23,7 +23,7 @@ public class MainApp {
 		try {
 			cc.addRoutes(srb);
 			cc.start();
-			Thread.sleep(1 * 1000);
+			Thread.sleep(3 * 1000);
 			cc.stop();
 			System.out.println("Done!");
 
